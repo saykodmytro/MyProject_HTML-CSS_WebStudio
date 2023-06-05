@@ -30,3 +30,36 @@ body {
 .address-header {
   font-style: normal;
 }
+
+.title-page {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--bg-color-head);
+  margin-bottom: 72px;
+}
+
+.button-order {
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  padding: 16px 32px;
+  border: none;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--bg-color-head);
+  background-color: var(--color-logo);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  transition: background-color var(--trans-time-cubic);
+}
+
+.button-order:hover,
+.button-order:focus {
+  background-color: var(--color-text-hover-focus);
+}

@@ -1,8 +1,4 @@
 @media screen and (max-width: 767px) {
-  .container {
-    max-width: 428px;
-  }
-
   .menu-nav {
     display: none;
   }

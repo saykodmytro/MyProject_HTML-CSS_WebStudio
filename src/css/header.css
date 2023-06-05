@@ -7,7 +7,7 @@
 }
 
 .link-logo {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -19,6 +19,32 @@
 
 .nav-page .logo-chank {
   color: var(--color-text-sec);
+}
+
+.nav-page {
+  display: flex;
+}
+
+.link-nav {
+  position: relative;
+  font-weight: 500;
+  color: var(--color-text-sec);
+}
+
+.underlining {
+  color: var(--color-text-hover-focus);
+}
+
+.underlining::after {
+  position: absolute;
+  display: block;
+  width: 100%;
+  content: '';
+  left: 0;
+  bottom: -31px;
+  height: 4px;
+  background-color: var(--color-text-hover-focus);
+  border-radius: 2px;
 }
 
 .container-logo-btn-open {

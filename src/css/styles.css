@@ -2,7 +2,10 @@
 
 @import url('./reset.css');
 @import url('./components.css');
+@import url('./container.css');
 @import url('./backgraund-hero.css');
 @import url('./header.css');
 @import url('./mobile-menu.css');
 @import url('./first-mobile.css');
+@import url('./tablet.css');
+@import url('./desctop.css');

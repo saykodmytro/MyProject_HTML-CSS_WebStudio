@@ -1,0 +1,162 @@
+/* ********************* Desktop (1157px +) ********************** */
+
+@media screen and (min-width: 1158px) {
+  .menu-nav {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .mobile-menu_btn-open {
+    display: none;
+  }
+
+  .address-header {
+    font-style: normal;
+    margin-left: auto;
+  }
+
+  .menu-address {
+    display: flex;
+    gap: 40px;
+  }
+
+  .link-adress {
+    display: inline-block;
+    color: var(--color-text-head);
+    transition: color var(--trans-time-cubic);
+  }
+
+  .underlining::after {
+    bottom: -24px;
+  }
+
+  .hero {
+    max-width: 1440px;
+    padding-top: 188px;
+    padding-bottom: 188px;
+  }
+
+  .title-page {
+    margin-bottom: 48px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 56px;
+    line-height: 1.07;
+    max-width: 496px;
+  }
+
+  .skills {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .menu-skills {
+    display: flex;
+    column-gap: 24px;
+  }
+
+  .list-skills {
+    width: calc((100% - 3 * 24px) / 4);
+  }
+
+  .icon-container-skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 112px;
+    margin-bottom: 8px;
+    background: var(--color-white-light);
+    border-radius: 4px;
+  }
+
+  .title-description-skills {
+    text-align: left;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+  }
+
+  .description-skills {
+    align-items: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color-text-head);
+  }
+
+  .our-work {
+    padding-bottom: 120px;
+  }
+
+  .menu-our-work {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+  }
+
+  .our-team {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .menu-our-team {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 24px;
+  }
+
+  .customers {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .menu-cust-svg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+  }
+
+  .list-item-cust {
+    width: 168px;
+    height: 88px;
+  }
+
+  .footer-page {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .container-footer {
+    display: flex;
+    align-items: baseline;
+    margin: 0 auto;
+  }
+
+  .container-foot-logo {
+    margin-right: 120px;
+  }
+
+  .description-footer {
+    max-width: 264px;
+    color: var(--color-white-light);
+  }
+
+  .container-foot-svg {
+    margin-right: 80px;
+  }
+
+  .cont-form-footer {
+    display: flex;
+  }
+
+  .form-lable-footer {
+    width: 264px;
+    margin-right: 24px;
+  }
+}
