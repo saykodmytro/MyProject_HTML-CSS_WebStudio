@@ -1,11 +1,11 @@
 {
-  "name": "webstudio-vanilla-app",
+  "name": "MyProject_HTML-CSS_WebStudio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/webstudio-vanilla-app/",
+    "build": "vite build --base=/MyProject_HTML-CSS_WebStudio/",
     "preview": "vite preview"
   },
   "devDependencies": {
